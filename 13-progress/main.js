@@ -15,7 +15,7 @@ $('#start-button').click(function() {
 
 $('#stop-button').click(function() {
       window.clearInterval(timer);
-          timer = 0;
+          timer =0 ;
             
 });
   
