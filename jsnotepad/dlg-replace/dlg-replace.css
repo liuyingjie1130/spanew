@@ -1,63 +1,46 @@
-.notepad-dlg-replace {
-  z-index: 10;
+.notepad-search-dlg .dialogbox{
+
+  height:152px;
+
+  width:397px;
 
 }
 
-.notepad-dlg-replace .dialogbox {
-  height: 274px;
-  width: 520px;
 
+.notepad-search-dlg .dialogbox .content{
+  font-size:14px;
+  width:96%;
+  margin:2%;
+}
+.content .checkbox{
+  position:absolute;
+  left:3px;
+  top:60px;
 }
 
-.notepad-dlg-replace .main {
-  height: 242px;
-  padding: 6px;
-
+.content span{
+  position:absolute;
+  left:16px;
+  top:60px;
+}
+.content input[type="button"]{
+  width:92px;
+}
+.content input[type="text"]{
+  width:190px;
+}
+.content label{
+  width:85px;
+  display:inline-block;
+}
+.notepad-search-dlg .dialogbox .content .btn-rep{
+  position:absolute;
+  right:3px;
+  top:55px;
 }
 
-.notepad-dlg-replace .main .txt-search {
-  box-sizing: border-box;
-  height: 30px;
-  margin: 10px;
-  width: 256px;
-
-}
-
-.notepad-dlg-replace .main .txt-replace {
-  box-sizing: border-box;
-  height: 30px;
-  margin-left: 25px;
-  width: 256px;
-
-}
-
-.notepad-dlg-replace .main .btn-search {
-  position: absolute;
-  right: 8px;
-  bottom: 192px;
-
-}
-
-.notepad-dlg-replace .main .btn-replace {
-  bottom: 150px;
-  position: absolute;
-  right: 8px;
-
-}
-.notepad-dlg-replace .main .btn-replace-all {
-  bottom: 108px;
-  position: absolute;
-  right: 8px;
-
-}
-.notepad-dlg-replace .main .btn-cancel {
-  bottom: 64px;
-  position: absolute;
-  right: 8px;
-
-}
-
-.notepad-dlg-replace .main input[value="capital-sense"] {
-  margin-top: 30px;
-
+.notepad-search-dlg .dialogbox .content .btn-cancel{
+  position:absolute;
+  right:3px;
+  top:80px;
 }

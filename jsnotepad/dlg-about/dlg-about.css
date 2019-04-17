@@ -1,45 +1,39 @@
-.notepad-dlg-about {
-  z-index: 10;
+
+
+.notepad-about-dlg .dialogbox{
+
+  height:389px;
+
+  width:474px;
 
 }
 
-.notepad-dlg-about .dialogbox {
-  height: 400px;
-  width: 536px;
 
+.notepad-about-dlg .dialogbox .content{
+  width:444px;
+  height:326px;
+  margin:15px;
 }
 
-.notepad-dlg-about .main {
-  height: 368px;
-
+.notepad-about-dlg .dialogbox .content h1{
+  text-align:center;
+  margin:25px;
+  font-size:3em;
+  color:blue;
 }
 
-.notepad-dlg-about .main .slogan {
-  color: #0077c8;
-  font-size: 4em;
-  line-height: 100px;
-  text-align: center;
-
+.notepad-about-dlg .dialogbox img{
+  float:left;
+  margin:20px 10px;
 }
 
-.notepad-dlg-about .main .app-logo {
-  margin: 20px 10px;
-
+.notepad-about-dlg .dialogbox .content hr{
+  margin-bottom:30px;
 }
-
-.notepad-dlg-about .main .info {
-  display: inline-block;
-  font-size: 1.2em;
-  height: 100px;
-  left: 80px;
-  line-height: 20px;
-  margin-left: 5px;
-
-}
-
-.notepad-dlg-about .main .btn-ok {
-  bottom: 16px;
-  position: absolute;
-  right: 12px;
-
+.notepad-about-dlg .dialogbox .content .btn-confirm{
+  bottom:16px;
+  height:28px;
+  width:86px;
+  position:absolute;
+  right:14px;
 }
